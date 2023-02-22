@@ -1,4 +1,4 @@
-import '../yumi_assets/god-main.css'
+import '../yumi_assets/umi-god-main.css'
 import { Navigate, useNavigate } from "react-router-dom";
 export default function GetStart() {
     // func link herf

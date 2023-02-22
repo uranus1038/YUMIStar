@@ -1,6 +1,6 @@
 import { Navigate, useNavigate } from "react-router-dom";
 import '../yumi_assets/navbar/navbar.css'
-import '../yumi_assets/god-main.css'
+import '../yumi_assets/umi-god-main.css'
 export default function NavbarMain() {
   const navigation = useNavigate();
   return (

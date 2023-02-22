@@ -31,6 +31,10 @@ body {
 .umi-special-blue-c2 {
     background-color: #3c4e6d;
 }
+.umi-special-blue-c3 {
+    background-color: #4974ca;
+}
+
 
 
 
@@ -39,7 +43,11 @@ body {
     color: white;
 }
 
-/* font-size  */
+/* font-size-main  */
+.fs-xsmall
+{
+    font-size: 3px;
+}
 .fs-small
 {
     font-size: 8px;
@@ -53,8 +61,17 @@ body {
     font-size: 18px;
 }
 
+/* font-weight-main  */
+.fw-bolder
+{
+    font-weight: bolder;
+}
 
-
+/* text-aline-main */
+.tx-center
+{
+    text-align: center;
+}
 /* Rows-main*/
 .umi-rows
 {
@@ -80,14 +97,48 @@ body {
 .umi-col
 {
     margin: 20px;
+    
 }
-
+.umi-col-3
+{
+    margin: 20px;
+    width: 280px;
+    height: 280px;
+}
+/* Position-main */
+.umi-fixed
+{
+    position: fixed;
+}
+.umi-relative
+{
+    position: relative;
+}
+/* Display-main */
+.umi-display-block
+{
+    display: block;
+}
+.umi-display-flex
+{
+    display: flex;
+}
 
 /* justify-main*/
 .umi-justify-center
 {
     justify-content: center;
 }
+.umi-justify-between
+{
+    justify-content: space-between;
+}
+/* align-item-main */
+.umi-item-start
+{
+    align-items: flex-start;
+}
+
 /* Button Active*/
 .umi-active:hover {
     color:rgb(194, 194, 194);
@@ -129,10 +180,11 @@ body {
 }
 .umi-btn-shiro
 {
+    display:inline-block;
     background-color: white;
     color: #141b29;
     margin: 0px ;
-    border-radius: 12%;
+    border: none;
 }
 .umi-btn-shiro:hover
 {

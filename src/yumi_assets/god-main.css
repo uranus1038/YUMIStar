@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    background-color: #1c2940;
+}
+
+/* Container-main*/
+.umi-container {
+    padding: 0px 38px;
+}
+
+.umi-container-full {
+    max-width: 100%;
+}
+
+/* color-main */
+.umi-special-blue-bg {
+    background-color: #1c2940;
+}
+.umi-special-blue-c0 {
+    background-color: #141b29;
+}
+.umi-special-blue-c1 {
+    background-color: #263b5f;
+}
+.umi-special-blue-c2 {
+    background-color: #3c4e6d;
+}
+
+
+
+/* font-color */
+.f-shiro {
+    color: white;
+}
+
+/* font-size  */
+.fs-small
+{
+    font-size: 8px;
+}
+.fs-medium
+{
+    font-size: 13px;
+}
+.fs-major
+{
+    font-size: 18px;
+}
+
+
+
+/* Rows-main*/
+.umi-rows
+{
+    display: flex;
+    align-items: center;
+}
+.umi-rows-6
+{
+    display: flex;
+    align-items: center;
+    height: 586px;
+}
+.umi-rows a
+{
+    text-decoration: none;
+}
+.umi-rows li
+{
+    list-style: none;
+}
+
+/* Col-main*/
+.umi-col
+{
+    margin: 20px;
+}
+
+
+/* justify-main*/
+.umi-justify-center
+{
+    justify-content: center;
+}
+/* Button Active*/
+.umi-active:hover {
+    color:rgb(194, 194, 194);
+}
+
+/*Dropdown-main*/
+
+.umi-dropdown {
+    position: relative;
+}
+
+.umi-dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 8px 8px;
+    margin: 0px 13px;
+    border-radius: 2%;
+    z-index: 1;
+}
+.umi-dropdown-link
+{
+    display: block;
+}
+.umi-dropdown:hover ~ .umi-dropdown-content {
+    display: block;
+}
+.umi-dropdown-content:hover
+{
+    display: block;
+}
+
+/* Button-main*/
+.btn
+{
+    cursor: pointer;
+    padding: 6px 8px;
+}
+.umi-btn-shiro
+{
+    background-color: white;
+    color: #141b29;
+    margin: 0px ;
+    border-radius: 12%;
+}
+.umi-btn-shiro:hover
+{
+    background-color: rgb(199, 199, 199);
+    margin: 0px ;
+}
+.umi-btn-outness-shiro 
+{
+    background: none;
+    border: white 3px solid;
+    margin: 0px ;
+    border-radius: 12%;
+}
+.umi-btn-square
+{
+    border-radius:0% ;
+}
+
+/* Border-main */
+
+.umi-border-shiro
+{
+    border:2px solid white;
+    padding: 6px 8px;
+    margin: 0px ;
+}
+.umi-border-3
+{
+    border: 5px  solid;
+}
+
+/* Padding-main  */
+
+.p-0{
+    padding: 0px;
+}
+
+/* Magin-main */
+
+.m-0{
+    margin: 0px;
+}
+
+
+
+/* Media query  */
+
+/* ?_query  */
+
+@media(max-width:786)
+{
+  .umi-container
+  {
+    padding: 0%;
+  }
+}

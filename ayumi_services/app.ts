@@ -1,3 +1,3 @@
-import {Test , Testb} from '../UMIStar/Core' ; 
+import {Test , Testb} from '../UMIStarFramwork/UMICore' ; 
 
 const test = new  Testb();

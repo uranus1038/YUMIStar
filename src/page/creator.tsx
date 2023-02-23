@@ -1,7 +1,7 @@
 import { useState } from 'react'
 //Add Component
-import GetMenu from '../component/creator/getMenu'
-import GetTabbar from '../component/creator/tabbar'
+import GetMenu from '../components/creator/getMenu'
+import GetTabbar from '../components/creator/tabbar'
 GetMenu
 GetTabbar
 export default function Creator() {

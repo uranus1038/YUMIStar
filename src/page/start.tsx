@@ -1,7 +1,7 @@
 import { useState } from 'react'
 //Add Component
-import NavbarMain from '../component/navbarMain'
-import GetStart from '../component/sectionGetStart'
+import NavbarMain from '../components/navbarMain'
+import GetStart from '../components/sectionGetStart'
 export default function StartApp() {
   const [count, setCount] = useState(0)
   return (
